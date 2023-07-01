@@ -1,0 +1,7 @@
+if _G.AutoClick then
+	local args = {
+	    [1] = 1
+	}
+	
+	game:GetService("ReplicatedStorage"):WaitForChild("Aero"):WaitForChild("AeroRemoteServices"):WaitForChild("ClickService"):WaitForChild("Click"):FireServer(unpack(args))
+end
